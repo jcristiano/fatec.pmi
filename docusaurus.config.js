@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PMI - Fatec Taubaté',
   tagline: 'Programacao em Microinformatica',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/laptop.ico',
 
   // Set the production url of your site here
   url: 'https://github.com',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jcristiano/fatec.pmi/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -73,13 +73,18 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'algoritmoSidebar',
             position: 'left',
-            label: 'Flowchart',
+            label: 'Algoritmos',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'docSidebar',
+            sidebarId: 'csharpSidebar',
+            position: 'left',
+            label: 'CSharp',
+          },
+          {
+            href: 'https://github.com/jcristiano/fatec.pmi.sources',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,14 +121,10 @@ const config = {
           },
           {
             title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+            items: [              
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/jcristiano/fatec.pmi.sources',
               },
             ],
           },
