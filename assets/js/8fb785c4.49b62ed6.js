@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfatec_pmi=self.webpackChunkfatec_pmi||[]).push([[6796],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
