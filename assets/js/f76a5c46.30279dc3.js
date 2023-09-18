@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfatec_pmi=self.webpackChunkfatec_pmi||[]).push([[5725],{3214:e=>{e.exports=JSON.parse('{"permalink":"/fatec.pmi/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

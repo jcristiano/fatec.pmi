@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfatec_pmi=self.webpackChunkfatec_pmi||[]).push([[4689],{8728:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/fatec.pmi/blog/tags/hola","allTagsPath":"/fatec.pmi/blog/tags","count":1}')}}]);
