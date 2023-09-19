@@ -21,7 +21,6 @@ const config = {
   organizationName: 'jcristiano', // Usually your GitHub org/user name.
   projectName: 'fatec.pmi', // Usually your repo name.
   deploymentBranch: "gh-pages",
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -44,6 +43,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/jcristiano/fatec.pmi/tree/main',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -134,8 +134,16 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['powershell', 'csharp'],
       },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
+    plugins: [
+      ['drawio', {}],
+    ]
 };
 
 module.exports = config;
